@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>confirm box</title>
+    <script>
+      
+      function confirmAction() {
+        let confirmAction = confirm("Are you sure to execute this action?");
+        if (confirmAction) {
+          alert("Action successfully executed");
+        } else {
+          alert("Action canceled");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Call the confirm box</h1>
+    <button onclick="confirmAction()">Check</button>
+  </body>
+  </html>
